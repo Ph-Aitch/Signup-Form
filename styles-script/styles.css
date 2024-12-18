@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    min-width: 958px;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.imgContainer {
+    width: 50%;
+    height: 918px;
+    background-image: url(../assets/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.wrapper {
+    background-color: rgba(51, 51, 51, 0.349);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+}
+
+.logoTitle {
+    color: white;
+    font-size: 4rem;
+
+}
+
+.logoName {
+    color: white;
+    position: relative;
+    bottom: 30px;
+    left: 70px;
+    font-size: 1rem;
+}
+
+.logo {
+    mix-blend-mode: screen;
+    width: 100px;
+}
+
+.credit {
+    position: absolute;
+    color: white;
+    mix-blend-mode: exclusion;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 100;
+    bottom: 10px;
+    left: 0px;
+}
+
+.credit a {
+    text-decoration: none;
+    color: orange;
+    margin: 0 .3em;
+    transition: all .3s ease;
+}
+
+.credit a:hover {
+    display: inline-block;
+    text-decoration: underline;
+    color: cyan;
+    transform: scale(1.1);
+}
+
+/* form section */
+
+.formContainer {
+    width: 50%;
+    background-color: #333;
+    background-image: url(../assets/adrienne-masler-Ne5_aw6SAA0-unsplash.jpg);
+    background-size: contain;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.formContainer h1 {
+    position: relative;
+    bottom: 100px;
+    right: 20px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card2 {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card2 span {
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card2 span a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.card2 span a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    width: 40%;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 5px;
+    align-items: start;
+    font-weight: 300;
+    font-size: 12px;
+    position: relative;
+}
+
+.card label {
+    transition: all .3 ease;
+}
+
+.card label:hover {
+    color: cyan;
+}
+
+.card span {
+    color: transparent;
+    font-size: 12px;
+    position: absolute;
+    bottom: -35px;
+}
+
+.card:nth-of-type(5) span {
+    bottom: -60px;
+}
+
+.card input {
+    height: 30px;
+    width: 100%;
+    border-radius: 2px;
+    border-bottom: 1px solid white;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    background-color: transparent;
+    border-right: none;
+    color: white;
+    transition: all .3s ease;
+}
+
+.card input:focus {
+    outline: none;
+    border-bottom: 1px solid cyan;
+    box-shadow: inset 0px -30px 0px 0px rgba(0, 255, 255, 0.2), 0px 3px 0px 0px cyan;
+    color: white;
+}
+
+#btn {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+#btn:hover {
+    border: 1px solid black;
+    color: black;
+    box-shadow: inset 0px -30px 0px 0px cyan , inset 0px 30px 0px 0px cyan;
+}
+
+/* can't comment all that sry */
