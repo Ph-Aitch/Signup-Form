@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp-Form</title>
+    <link rel="stylesheet" href="styles-script/styles.css">
+    <script type="module" src="styles-script/script.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="imgContainer">
+            <div class="wrapper"><img class="logo" src="assets/Designer.png" alt="logo" width="200">
+                <span class="logoName">ATOM INC.</span>
+                <h1 class="logoTitle">Walk Steadily.</h1>
+            </div>
+            <span class="credit">Photo by <a
+                    href="https://unsplash.com/@ryoji__iwata?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ryoji
+                    Iwata</a> on <a
+                    href="https://unsplash.com/photos/man-in-black-formal-suit-jacket-and-pants-carrying-black-bag-while-walking-on-pedestrian-lane-during-daytime-wUZjnOv7t0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+        </div>
+        <div class="formContainer">
+            <h1>Create your account.</h1>
+            <form action="#" method="post">
+                <div class="card">
+                    <label for="first">FIRST NAME :</label>
+                    <input id="first" type="text" required autocomplete="off">
+                    <span>**Please enter your name only letters, two letter at least**</span>
+                </div>
+                <div class="card">
+                    <label for="last">LAST NAME :</label>
+                    <input id="last" type="text" required autocomplete="off">
+                    <span>**Please enter your name only letters, two letter at least**</span>
+                </div>
+                <div class="card">
+                    <label for="email">EMAIL :</label>
+                    <input id="email" type="email" name="email" required autocomplete="off">
+                    <span>**Please enter a valid email address (e.g., name@example.com).**</span>
+                </div>
+                <div class="card">
+                    <label for="phone">PHONE NUMBER :</label>
+                    <input id="phone" type="text" name="phone number" required autocomplete="off">
+                    <span>**Please enter a Valid international number (eg.+442071838750)**</span>
+                </div>
+                <div class="card">
+                    <label for="password">PASSWORD :</label>
+                    <input id="password" type="password" name="password" required autocomplete="off">
+                    <span>** Please enter your password, at least 8 chr long,1 dig,1 lower case chr, 1 upper case chr,1 special chr [eg. !@#$%^&*] **</span>
+                </div>
+                <div class="card">
+                    <label for="confirmPassword">CONFIRM PASSWORD :</label>
+                    <input id="confirmPassword" type="password" name="confirm password" required autocomplete="off">
+                    <span></span>
+                </div>
+                <div class="card2">
+                    <button id="btn" type="submit">Create Account</button>
+                    <span>Already have an accout <a href="#">login</a></span>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
